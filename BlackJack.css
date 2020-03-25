@@ -17,7 +17,7 @@ body {
     }
 
 h1 {
-    background-image: url("images/headerimg.jpg");
+    background-image: url("https://github.com/suneetkh/suneetkh.github.io/blob/master/suneetkh.github.io/images/headerimg.jpg");
     width: 100%;
     text-align: center;
     padding: 10px;
@@ -103,7 +103,7 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     background-color: #5499C7;
-    background-image: url("images/headerimg.jpg");
+    background-image: url("https://github.com/suneetkh/suneetkh.github.io/blob/master/suneetkh.github.io/images/headerimg.jpg");
     font-weight: bold;
 }
 
@@ -114,12 +114,12 @@ button {
 
     button#hit {
         width: 140px;
-        background-image: url("images/hitimg.jpg");
+        background-image: url("https://github.com/suneetkh/suneetkh.github.io/blob/master/suneetkh.github.io/images/hitimg.jpg");
     }
 
     button#stay {
         width: 140px;
-        background-image: url("images/stayimg.jpg");
+        background-image: url("https://github.com/suneetkh/suneetkh.github.io/blob/master/suneetkh.github.io/images/stayimg.jpg");
     }
 
 #playcount {
