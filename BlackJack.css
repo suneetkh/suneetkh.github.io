@@ -1,0 +1,141 @@
+
+
+body {
+    font-family: calibri, sans-serif;
+    font-size: 18px;
+    display: flex;
+    margin: auto;
+    justify-content: center;    
+}
+
+    body > div {
+        max-width: 600px;
+        width: 100%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+h1 {
+    background-image: url("images/headerimg.jpg");
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    padding: 8px;
+    font-size:larger
+    
+}
+
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+div.buttonbox {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 8px 8px 8px 8px
+}
+
+div.messagearea {
+    width: 100%;
+    background-color: #eaeaea;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.hidden {
+    visibility: hidden
+}
+
+.blackcard {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.redcard {
+    color: red;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #5499C7;
+    background-image: url("images/headerimg.jpg");
+    font-weight: bold;
+}
+
+    button#newgame {
+        width: 140px;
+    }
+
+
+    button#hit {
+        width: 140px;
+        background-image: url("images/hitimg.jpg");
+    }
+
+    button#stay {
+        width: 140px;
+        background-image: url("images/stayimg.jpg");
+    }
+
+#playcount {
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size:smaller;
+}
+
+#stats {
+    width: auto;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: smaller;
+}
